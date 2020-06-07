@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/ryancmoniz/hrr45-mvp#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint-config-airbnb": "^18.1.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
@@ -32,7 +34,11 @@
     "@babel/preset-react": "^7.10.1",
     "babel-loader": "^8.1.0",
     "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   }
