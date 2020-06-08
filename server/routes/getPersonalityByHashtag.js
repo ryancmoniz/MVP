@@ -5,7 +5,7 @@ const { getNeeds } = require('../../helpers/getNeeds.js');
 const { getValues } = require('../../helpers/getValues.js');
 
 const getPersonalityByHashtag = (req, res) => {
-  const results = [];
+  const results = {};
   const { hashtag } = req.body;
   const checkWord = new RegExp('^[a-zA-Z0-9]*$');
 
@@ -13,9 +13,9 @@ const getPersonalityByHashtag = (req, res) => {
     generateInputTextByHashtag(hashtag)
       .then((input) => generatePersonalityProfile(input))
       .then((profile) => {
-        results.push(getBigFive(profile.personality));
-        results.push(getNeeds(profile.needs));
-        results.push(getValues(profile.values));
+        results.personality = getBigFive(profile.personality);
+        results.needs = getNeeds(profile.needs);
+        results.values = getValues(profile.values);
         res.status(200).send(results);
       })
       .catch((err) => {

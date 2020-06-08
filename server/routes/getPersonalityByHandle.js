@@ -5,7 +5,7 @@ const { getNeeds } = require('../../helpers/getNeeds.js');
 const { getValues } = require('../../helpers/getValues.js');
 
 const getPersonalityByHandle = (req, res) => {
-  const results = [];
+  const results = {};
   const { handle } = req.body;
   const checkHandle = new RegExp('^[a-zA-Z0-9_]*$');
 
@@ -13,9 +13,9 @@ const getPersonalityByHandle = (req, res) => {
     generateInputTextByHandle(handle)
       .then((input) => generatePersonalityProfile(input))
       .then((profile) => {
-        results.push(getBigFive(profile.personality));
-        results.push(getNeeds(profile.needs));
-        results.push(getValues(profile.values));
+        results.personality = getBigFive(profile.personality);
+        results.needs = getNeeds(profile.needs);
+        results.values = getValues(profile.values);
         res.status(200).send(results);
       })
       .catch((err) => {
