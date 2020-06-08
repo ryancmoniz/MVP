@@ -1,0 +1,80 @@
+{
+  "personality": {
+      "openness": {
+          "score": 0.9298451942827775,
+          "factors": {
+              "adventurousness": 0.6914875354842356,
+              "artisticInterests": 0.610033700923495,
+              "emotionality": 0.33170390055729027,
+              "imagination": 0.3919556013004197,
+              "intellect": 0.970309932353236,
+              "authorityChallenging": 0.5495071486554098
+          }
+      },
+      "conscientousness": {
+          "score": 0.9827177923378752,
+          "factors": {
+              "achievementStriving": 0.9474488849712034,
+              "cautiousness": 0.9191686435240234,
+              "dutifulness": 0.8533961926233689,
+              "orderliness": 0.5795512788594966,
+              "selfDiscipine": 0.9301177220842207,
+              "selfEfficacy": 0.9508611593283665
+          }
+      },
+      "extraversion": {
+          "score": 0.7590316654106346,
+          "factors": {
+              "activityLevel": 0.7545422249775989,
+              "assertiveness": 0.9665372714136747,
+              "cheerfulness": 0.24456012582315817,
+              "excitmentSeeking": 0.1711424073384492,
+              "outgoing": 0.5956758538611799,
+              "gregariousness": 0.1409193581997053
+          }
+      },
+      "agreeableness": {
+          "score": 0.6671570309239124,
+          "factors": {
+              "altruism": 0.8554342869199596,
+              "cooperation": 0.5010911841631867,
+              "modesty": 0.2723670696007253,
+              "uncompromising": 0.7633044627687431,
+              "sympathy": 0.9944285958585677,
+              "trust": 0.5797633125138657
+          }
+      },
+      "emotionalRange": {
+          "score": 0.23056652819822626,
+          "factors": {
+              "fiery": 0.28011224761794107,
+              "anxiety": 0.1520876243106809,
+              "melancholy": 0.1658243108283151,
+              "immoderation": 0.033702247277144826,
+              "selfConsciousness": 0.146349902135133,
+              "vulnerability": 0.048895249900311355
+          }
+      }
+  },
+  "needs": {
+      "challenge": 0.19623471662026265,
+      "closesness": 0.12227500370189037,
+      "curiosity": 0.3454656954432787,
+      "excitement": 0.04264108903099717,
+      "harmony": 0.15764766589867601,
+      "ideal": 0.1788396053761232,
+      "liberty": 0.034457495666657234,
+      "love": 0.04700862586565541,
+      "practicality": 0.15676868059117205,
+      "selfExpression": 0.12100746238785304,
+      "stability": 0.6401279545680177,
+      "structure": 0.775850109027894
+  },
+  "values": {
+      "conservation": 0.2995774133723155,
+      "change": 0.08764469916314338,
+      "hedonism": 0.0719569931536514,
+      "selfEnhancement": 0.03289205132536005,
+      "selfTranscendence": 0.06251043626933578
+  }
+}
