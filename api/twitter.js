@@ -30,22 +30,24 @@ const generateInputTextByHashtag = async (hashtag, type = 'mixed') => {
   let output = '';
   let maxId = Infinity;
   const data = [];
-  while (data.length <= 200) {
+  let requests = 0;
+  while (data.length <= 200 || requests <= 5) {
     const url = `https://api.twitter.com/1.1/search/tweets.json?q=${hashtag}&result_type=${type}&count=100&tweet_mode=extended&max_id=${maxId}}`;
 
     try {
       const response = await axios.get(url, config);
+      requests += 1;
       // eslint-disable-next-line prefer-destructuring
-      maxId = response.data.search_metadata.next_results.split('max_id=')[1].split('&')[0];
+      if (response.data.search_metadata.next_results) maxId = response.data.search_metadata.next_results.split('max_id=')[1].split('&')[0];
       data.push(...response.data.statuses);
     } catch (error) {
       console.error(error);
+      throw error;
     }
   }
   data.forEach((tweet) => {
     output += tweet.full_text;
   });
-
   return output.replace(urlPattern, '');
 };
 
