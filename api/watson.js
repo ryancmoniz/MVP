@@ -12,22 +12,18 @@ const personalityInsights = new PersonalityInsightsV3({
 });
 
 
-const generatePersonalityProfile = (inputText) => {
+const generatePersonalityProfile = async (inputText) => {
   const profileParams = {
     content: inputText,
     contentType: 'text/html',
     consumptionPreferences: true,
     rawScores: true,
   };
-  personalityInsights.profile(profileParams)
-    .then((profile) => {
-      console.log(JSON.stringify(profile, null, 2));
-    })
-    .catch((err) => {
-      console.log('error:', err);
-    });
-};
 
+  return personalityInsights.profile(profileParams)
+    .then((response) => response.result)
+    .catch((err) => console.error(err));
+};
 
 module.exports = {
   generatePersonalityProfile,
