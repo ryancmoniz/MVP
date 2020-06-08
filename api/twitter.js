@@ -1,7 +1,8 @@
 /* eslint-disable no-await-in-loop */
-
 const axios = require('axios');
 const { config } = require('../secret/keys.js');
+
+const urlPattern = /([a-z]+:\/+)([^/\s]*)([a-z0-9\-@^=%&;/~+]*)[?]?([^ #]*)#?([^ #]*)/ig;
 
 const generateInputText = async (screename) => {
   let output = '';
@@ -20,7 +21,10 @@ const generateInputText = async (screename) => {
     output += tweet.full_text;
   });
 
-  return output;
+
+  return output.replace(urlPattern, '');
 };
 
-module.exports = generateInputText;
+module.exports = {
+  generateInputText,
+};
