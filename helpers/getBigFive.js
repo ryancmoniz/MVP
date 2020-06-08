@@ -1,13 +1,9 @@
-// const { generateInputText } = require('./api/twitter.js');
-// const { generatePersonalityProfile } = require('./api/watson.js');
-const sampleData = require('../samples/sampleWatsonData.json').result;
-
-const getBigFive = (personalityProfile) => {
-  const Openness = personalityProfile[0];
-  const Conscientousness = personalityProfile[1];
-  const Extraversion = personalityProfile[2];
-  const Agreeableness = personalityProfile[3];
-  const EmotionalRange = personalityProfile[4];
+const getBigFive = (personality) => {
+  const Openness = personality[0];
+  const Conscientousness = personality[1];
+  const Extraversion = personality[2];
+  const Agreeableness = personality[3];
+  const EmotionalRange = personality[4];
 
   const bigFive = {
     openness: {
@@ -70,4 +66,6 @@ const getBigFive = (personalityProfile) => {
   return bigFive;
 };
 
-console.log(getBigFive(sampleData.personality));
+module.exports = {
+  getBigFive,
+};
