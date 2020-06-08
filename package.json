@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/ryancmoniz/hrr45-mvp#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "eslint-config-airbnb": "^18.1.0",
     "express": "^4.17.1",
+    "ibm-watson": "^5.6.0",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
