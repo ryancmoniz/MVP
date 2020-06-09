@@ -6,7 +6,7 @@ const Needs = ({ needs = {} }) => (
     <h1>
       Needs
     </h1>
-    <div className="break"></div>
+    <div className="break" />
     <ul className="value-list">
       {Object.keys(needs).map((name) => (
         <li className="factor">
