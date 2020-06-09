@@ -1,9 +1,8 @@
 import React from 'react';
 
-const TwitterData = ({profile = {}}) => (
+const TwitterData = ({ profile = {} }) => (
   <div className="data">
     <div className="inner-data">
-      {console.log(profile)}
       <div className="data-content">
         <p>Tweets</p>
         <span>{profile.statuses_count}</span>
