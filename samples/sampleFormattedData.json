@@ -1,91 +1,91 @@
 {
-    "profile": {
-        "name": "Donald J. Trump",
-        "screen_name": "realDonaldTrump",
-        "location": "Washington, DC",
-        "description": "45th President of the United States of America🇺🇸",
-        "followers_count": 81970154,
-        "friends_count": 46,
-        "statuses_count": 52710,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m.jpg",
-        "latest_tweet": "RT @SenateGOP: 🚀 🇺🇸\n\nwe're back. https://t.co/0m8h64qaSN"
-    },
-    "personality": {
-        "openness": {
-            "score": 0.940019450822716,
-            "factors": {
-                "adventurousness": 0.8089932376472675,
-                "artisticInterests": 0.787056487572209,
-                "emotionality": 0.4044801014663171,
-                "imagination": 0.47291978716771266,
-                "intellect": 0.9834087015256113,
-                "authorityChallenging": 0.6830174523954804
-            }
-        },
-        "conscientousness": {
-            "score": 0.9712816169628453,
-            "factors": {
-                "achievementStriving": 0.9386695184850409,
-                "cautiousness": 0.9298401040453691,
-                "dutifulness": 0.8560789749475204,
-                "orderliness": 0.6894061682020485,
-                "selfDiscipine": 0.9111744266454999,
-                "selfEfficacy": 0.926655575685476
-            }
-        },
-        "extraversion": {
-            "score": 0.8710443317872412,
-            "factors": {
-                "activityLevel": 0.7855211338380377,
-                "assertiveness": 0.9579110131172239,
-                "cheerfulness": 0.29593345038118446,
-                "excitmentSeeking": 0.20493081675274444,
-                "outgoing": 0.6657598346364023,
-                "gregariousness": 0.23259714348687632
-            }
-        },
-        "agreeableness": {
-            "score": 0.5530343783615648,
-            "factors": {
-                "altruism": 0.8531885814986246,
-                "cooperation": 0.5575131308361136,
-                "modesty": 0.33865627688004973,
-                "uncompromising": 0.7231582513163596,
-                "sympathy": 0.995884209314261,
-                "trust": 0.6209879743744574
-            }
-        },
-        "emotionalRange": {
-            "score": 0.16600598720547238,
-            "factors": {
-                "fiery": 0.18787828887890368,
-                "anxiety": 0.15612693439784892,
-                "melancholy": 0.1803964637816498,
-                "immoderation": 0.02829655495828054,
-                "selfConsciousness": 0.09463606516629541,
-                "vulnerability": 0.03483786482385548
-            }
-        }
-    },
-    "needs": {
-        "challenge": 0.11152672504467104,
-        "closesness": 0.11023094672394557,
-        "curiosity": 0.2995420408111717,
-        "excitement": 0.06477959770922254,
-        "harmony": 0.06958207316318388,
-        "ideal": 0.09096985195464591,
-        "liberty": 0.03661759804933579,
-        "love": 0.03730910175114782,
-        "practicality": 0.09505844174813233,
-        "selfExpression": 0.13554336914220838,
-        "stability": 0.5961037378841513,
-        "structure": 0.6617600842479832
-    },
-    "values": {
-        "conservation": 0.12411548545601553,
-        "change": 0.22319583930623005,
-        "hedonism": 0.08763666468448866,
-        "selfEnhancement": 0.021024177116968246,
-        "selfTranscendence": 0.08211722100062957
-    }
+  "profile": {
+      "name": "Barack Obama",
+      "screen_name": "BarackObama",
+      "location": "Washington, DC",
+      "description": "Dad, husband, President, citizen.",
+      "followers_count": 119565422,
+      "friends_count": 605055,
+      "statuses_count": 15836,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/822547732376207360/5g0FC8XX.jpg",
+      "latest_tweet": "As has always been true at key moments in history, it’s going to depend on young people to go out there and rewrite what is possible.\n\nI couldn’t be prouder of all the young people leading that change right now. Here’s my advice for the Class of 2020: https://t.co/XD2n7LEihk"
+  },
+  "personality": {
+      "openness": {
+          "score": 0.904404667773866,
+          "factors": {
+              "adventurousness": 0.8844337422018826,
+              "artisticInterests": 0.9341490382136527,
+              "emotionality": 0.7445232104323279,
+              "imagination": 0.40645943007059404,
+              "intellect": 0.9690058499722867,
+              "authorityChallenging": 0.8628330321167497
+          }
+      },
+      "conscientiousness": {
+          "score": 0.9587922816660939,
+          "factors": {
+              "achievementStriving": 0.9663745354958893,
+              "cautiousness": 0.9327188719707089,
+              "dutifulness": 0.8698538305120592,
+              "orderliness": 0.5531729632912085,
+              "selfDiscipine": 0.8570588292147316,
+              "selfEfficacy": 0.9020160041766578
+          }
+      },
+      "extraversion": {
+          "score": 0.5660816550462063,
+          "factors": {
+              "activityLevel": 0.9796609357257398,
+              "assertiveness": 0.9862516132873309,
+              "cheerfulness": 0.6250413760813225,
+              "excitmentSeeking": 0.24639089220498117,
+              "outgoing": 0.8558950914381296,
+              "gregariousness": 0.5203455407200374
+          }
+      },
+      "agreeableness": {
+          "score": 0.605446948781035,
+          "factors": {
+              "altruism": 0.993326796889455,
+              "cooperation": 0.7557580257198983,
+              "modesty": 0.5278413306167535,
+              "uncompromising": 0.9487901188690095,
+              "sympathy": 0.9992521827150602,
+              "trust": 0.8986085087354854
+          }
+      },
+      "emotionalRange": {
+          "score": 0.40504157781177097,
+          "factors": {
+              "fiery": 0.03634758472196509,
+              "anxiety": 0.07159471958842883,
+              "melancholy": 0.11120537299366351,
+              "immoderation": 0.031313627014954326,
+              "selfConsciousness": 0.08177582186680554,
+              "vulnerability": 0.07358208692724355
+          }
+      }
+  },
+  "needs": {
+      "challenge": 0.16802944100603978,
+      "closeness": 0.3626877561427203,
+      "curiosity": 0.6861936741077412,
+      "excitement": 0.09876001977907745,
+      "harmony": 0.36529521543654636,
+      "ideal": 0.14682193738738553,
+      "liberty": 0.16485510470758452,
+      "love": 0.11248238795333654,
+      "practicality": 0.04205876896363625,
+      "selfExpression": 0.27065585840691053,
+      "stability": 0.6363004346123456,
+      "structure": 0.8106612263982999
+  },
+  "values": {
+      "conservation": 0.6032507492678567,
+      "change": 0.5017679956324699,
+      "hedonism": 0.030304044191165003,
+      "selfEnhancement": 0.018804288908339573,
+      "selfTranscendence": 0.40452540889156335
+  }
 }
