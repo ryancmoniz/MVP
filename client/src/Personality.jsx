@@ -6,7 +6,7 @@ const Personality = ({ personality = {} }) => {
     conscientiousness: 'A person\'s tendency to act in an organized or thoughtful way',
     extraversion: 'A person\'s tendency to seek stimulation in the company of others.',
     emotionalRange: 'Also referred to as Neuroticism or Natural reactions, is the extent to which a person\'s emotions are sensitive to the person\'s environment.',
-    openness: 'The extent to which a person is open to experiencing different activities.'
+    openness: 'The extent to which a person is open to experiencing different activities.',
   };
 
   return (
