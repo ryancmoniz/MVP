@@ -1,10 +1,12 @@
 import React from 'react';
 
 const Needs = ({ needs = {} }) => (
-  <div className="needs">
+  <div className="profile-card needs">
+    {console.log(needs)}
     <h1>
       Needs
     </h1>
+    <div className="break"></div>
     <ul className="value-list">
       {Object.keys(needs).map((name) => (
         <li className="factor">
