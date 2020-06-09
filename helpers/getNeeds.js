@@ -1,7 +1,7 @@
 const getNeeds = (personalityNeeds) => {
   const needs = {
     challenge: personalityNeeds[0].percentile,
-    closesness: personalityNeeds[1].percentile,
+    closeness: personalityNeeds[1].percentile,
     curiosity: personalityNeeds[2].percentile,
     excitement: personalityNeeds[3].percentile,
     harmony: personalityNeeds[4].percentile,
