@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Values = ({ values = {} }) => (
-  <div className="values">
+  <div className="values profile-card">
     <h1>
       Values
     </h1>
