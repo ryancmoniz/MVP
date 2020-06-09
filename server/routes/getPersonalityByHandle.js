@@ -5,13 +5,21 @@ const { getNeeds } = require('../../helpers/getNeeds.js');
 const { getValues } = require('../../helpers/getValues.js');
 
 const getPersonalityByHandle = (req, res) => {
-  const results = {};
+  const results = {
+    profile: {},
+    personality: {},
+    needs: {},
+    values: {},
+  };
   const { handle } = req.body;
   const checkHandle = new RegExp('^[a-zA-Z0-9_]*$');
 
   if (checkHandle.test(handle)) {
     generateInputTextByHandle(handle)
-      .then((input) => generatePersonalityProfile(input))
+      .then((input) => {
+        results.profile = input.profile;
+        return generatePersonalityProfile(input.output);
+      })
       .then((profile) => {
         results.personality = getBigFive(profile.personality);
         results.needs = getNeeds(profile.needs);
