@@ -26,7 +26,7 @@ const generateInputTextByHandle = async (screename) => {
     followers_count: data[0].user.followers_count,
     friends_count: data[0].user.friends_count,
     statuses_count: data[0].user.statuses_count,
-    profile_image_url: data[0].user.profile_image_url.replace('normal', 'bigger'),
+    profile_image_url: data[0].user.profile_image_url.replace('_normal', ''),
     latest_tweet: data[0].full_text,
   };
   data.forEach((tweet) => {
