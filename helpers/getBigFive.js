@@ -1,6 +1,6 @@
 const getBigFive = (personality) => {
   const Openness = personality[0];
-  const Conscientousness = personality[1];
+  const Conscientiousness = personality[1];
   const Extraversion = personality[2];
   const Agreeableness = personality[3];
   const EmotionalRange = personality[4];
@@ -17,15 +17,15 @@ const getBigFive = (personality) => {
         authorityChallenging: Openness.children[5].percentile,
       },
     },
-    conscientousness: {
-      score: Conscientousness.percentile,
+    conscientiousness: {
+      score: Conscientiousness.percentile,
       factors: {
-        achievementStriving: Conscientousness.children[0].percentile,
-        cautiousness: Conscientousness.children[1].percentile,
-        dutifulness: Conscientousness.children[2].percentile,
-        orderliness: Conscientousness.children[3].percentile,
-        selfDiscipine: Conscientousness.children[4].percentile,
-        selfEfficacy: Conscientousness.children[5].percentile,
+        achievementStriving: Conscientiousness.children[0].percentile,
+        cautiousness: Conscientiousness.children[1].percentile,
+        dutifulness: Conscientiousness.children[2].percentile,
+        orderliness: Conscientiousness.children[3].percentile,
+        selfDiscipine: Conscientiousness.children[4].percentile,
+        selfEfficacy: Conscientiousness.children[5].percentile,
       },
     },
     extraversion: {
