@@ -17,12 +17,27 @@ const generateInputTextByHandle = async (screename) => {
       console.error(error);
     }
   }
+
+  const profile = {
+    name: data[0].user.name,
+    screen_name: data[0].user.screen_name,
+    location: data[0].user.location,
+    description: data[0].user.description,
+    followers_count: data[0].user.followers_count,
+    friends_count: data[0].user.friends_count,
+    statuses_count: data[0].user.statuses_count,
+    profile_image_url: data[0].user.profile_image_url.replace('normal', 'bigger'),
+    latest_tweet: data[0].full_text,
+  };
   data.forEach((tweet) => {
     output += tweet.full_text;
   });
 
 
-  return output.replace(urlPattern, '');
+  return {
+    output: output.replace(urlPattern, ''),
+    profile,
+  };
 };
 
 
