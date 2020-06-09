@@ -1,10 +1,11 @@
 import React from 'react';
 
 const Personality = ({ personality = {} }) => (
-  <div className="personality">
+  <div className="profile-card personality">
     <h1>
       Personality
     </h1>
+    <div className="break" />
     <ul className="value-list">
       {Object.keys(personality).map((name) => (
         <li className="factor">
