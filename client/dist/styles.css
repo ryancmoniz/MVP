@@ -237,7 +237,7 @@ h1{
   font-size: 20px;
 }
 
-.wrap{ 
+.wrap{
   width: 30%;
   position: absolute;
   top: 20%;
@@ -402,4 +402,8 @@ display: block;
 
 .needs .tooltip {
   font-size: 1.5em;
+}
+
+h1 {
+  color:palevioletred;
 }
