@@ -8,6 +8,7 @@
     "build-watch": "webpack -d --watch --mode development",
     "build-dev": "webpack -d --mode development",
     "build-prod": "webpack -p --mode production",
+    "heroku-postbuild": "webpack -p",
     "start": "nodemon server"
   },
   "repository": {
