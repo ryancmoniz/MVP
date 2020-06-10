@@ -35,6 +35,6 @@ bower_components/
 .flooignore
 
 
-secret
+dev.js
 
 .json
