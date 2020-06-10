@@ -9,6 +9,7 @@
     "build-dev": "webpack -d --mode development",
     "build-prod": "webpack -p --mode production",
     "heroku-postbuild": "webpack -p",
+    "tests": "jest --coverage",
     "start": "nodemon server"
   },
   "repository": {
@@ -24,12 +25,16 @@
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint-config-airbnb": "^18.1.0",
     "express": "^4.17.1",
     "ibm-watson": "^5.6.0",
+    "jest": "^26.0.1",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
@@ -44,5 +49,10 @@
     "eslint-plugin-react-hooks": "^4.0.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./tests/setupTests.js"
+    ]
   }
 }
