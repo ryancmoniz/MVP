@@ -15,7 +15,7 @@ const Personality = ({ personality = {} }) => {
         Personality
       </h1>
       <div className="break" />
-      <ul className="value-list">
+      <ul className="value-things">
         {Object.keys(personality).map((name) => (
           <li className="factor">
             <p className="tool">
