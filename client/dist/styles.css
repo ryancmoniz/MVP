@@ -6,7 +6,7 @@
 }
 
 body{
-  background: rgb(21, 32, 43);
+  background: pink;
   color: black;
   font-family: 'Roboto', sans-serif;
 }
@@ -237,7 +237,7 @@ h1{
   font-size: 20px;
 }
 
-.wrap{ 
+.wrap{
   width: 30%;
   position: absolute;
   top: 20%;
