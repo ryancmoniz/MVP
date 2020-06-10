@@ -31,6 +31,7 @@
     "express": "^4.17.1",
     "ibm-watson": "^5.6.0",
     "jest": "^26.0.1",
+    "jest-junit": "^10.0.0",
     "nodemon": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -50,9 +51,9 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "jest": {
-    "setupFilesAfterEnv": [
-      "./tests/setupTests.js"
-    ]
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": "./test-results/jest",
+    "outputName": "results.xml"
   }
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" time="2.316">
+  <testsuite name="TwitterData component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.205" tests="1">
+    <testcase classname="TwitterData component tests should render without throwing an error" name="TwitterData component tests should render without throwing an error" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="UpperCard component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.19" tests="1">
+    <testcase classname="UpperCard component tests should render without throwing an error" name="UpperCard component tests should render without throwing an error" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Personality component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.161" tests="1">
+    <testcase classname="Personality component tests should render without throwing an error" name="Personality component tests should render without throwing an error" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Needs component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.161" tests="1">
+    <testcase classname="Needs component tests should render without throwing an error" name="Needs component tests should render without throwing an error" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Values component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.135" tests="1">
+    <testcase classname="Values component tests should render without throwing an error" name="Values component tests should render without throwing an error" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="verifying helpers return correct amount traits from API data" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.191" tests="6">
+    <testcase classname="verifying helpers return correct amount traits from API data getBigFive should return 5 personality traits" name="verifying helpers return correct amount traits from API data getBigFive should return 5 personality traits" time="0.002">
+    </testcase>
+    <testcase classname="verifying helpers return correct amount traits from API data getNeeds should return 12 needs traits" name="verifying helpers return correct amount traits from API data getNeeds should return 12 needs traits" time="0">
+    </testcase>
+    <testcase classname="verifying helpers return correct amount traits from API data getValues should return 12 needs traits" name="verifying helpers return correct amount traits from API data getValues should return 12 needs traits" time="0">
+    </testcase>
+    <testcase classname="verifying helpers return correct amount traits from API data getBigFive should return 5 personality traits" name="verifying helpers return correct amount traits from API data getBigFive should return 5 personality traits" time="0.001">
+    </testcase>
+    <testcase classname="verifying helpers return correct amount traits from API data getNeeds should return 12 needs traits" name="verifying helpers return correct amount traits from API data getNeeds should return 12 needs traits" time="0">
+    </testcase>
+    <testcase classname="verifying helpers return correct amount traits from API data getValues should return 12 needs traits" name="verifying helpers return correct amount traits from API data getValues should return 12 needs traits" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Search component tests" errors="0" failures="0" skipped="0" timestamp="2020-06-10T18:41:50" time="1.171" tests="1">
+    <testcase classname="Search component tests should render without throwing an error" name="Search component tests should render without throwing an error" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>
